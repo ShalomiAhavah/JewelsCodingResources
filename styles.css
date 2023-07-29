@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    background: linear-gradient(blue, lightblue, teal);
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center; 
+}
+
+.head {
+    height: 20vh;
+    width: 90vw;
+    background-color: rgb(86, 141, 117);
+    border: 1px solid darkgray;
+    margin: 2vmin auto 0 auto;
+}
+
+.heading {
+    color: rgb(145, 145, 145);
+    text-shadow: 1px 1px 3px white;
+    text-align: center;
+    font-size: 8vmin;
+}
+
+.github {
+    height: 6vmin;
+    margin-top: -17vmin;
+    margin-left: 3vmin;
+    position: absolute;
+}
+.email {
+    height: 6vmin;
+    margin-top: -9vmin;
+    margin-left: 3vmin;
+    position: absolute;
+}
+.content {
+    height: 75vh;
+    width: 90vw;
+    background-color: rgb(76, 131, 145);
+    border: 1px solid darkgray;
+    margin: 2vmin auto 0 auto;
+    overflow: scroll;
+}
